@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.winter {
+  background-image: url("images/image1.jpg");
+}
+
+.summer {
+  background-image: url("images/image2.jpg");
+}
+
+.autumn {
+  background-image: url("images/image3.jpg");
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 24px;
+}
