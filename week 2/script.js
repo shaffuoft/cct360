@@ -13,3 +13,8 @@ box.addEventListener("mouseover", function () {
 
   box.innerHTML = "Your mouse is over the box!";
 });
+let size = document.getElementById("windowSize");
+
+window.addEventListener("resize", function () {
+  size.innerHTML = "Window width: " + window.innerWidth + "px";
+});
