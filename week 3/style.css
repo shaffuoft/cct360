@@ -1,0 +1,18 @@
+body {
+  background-color: #f4f1eb;
+  color: #222222;
+  margin: 30px;
+}
+.scene {
+  margin: 20px;
+}
+.photo-space {
+  width: 250px;
+  height: 100px;
+  padding: 15px;
+  background-color: #dddddd;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+}
