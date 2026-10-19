@@ -3,16 +3,19 @@ body {
   color: #222222;
   margin: 30px;
 }
-.scene {
-  margin: 20px;
-}
+
 .photo-space {
-  width: 250px;
-  height: 100px;
-  padding: 15px;
-  background-color: #dddddd;
+  margin: 20px 0;
 }
+
+.photo-space img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+}
+
 button {
   padding: 10px;
   font-size: 16px;
+  margin: 5px;
 }
