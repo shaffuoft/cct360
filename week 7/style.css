@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: lightblue;
+  padding: 50px 20px;
+}
+
+.weather-box {
+  background-color: white;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid gray;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.bar-box {
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+#cloud-bar {
+  width: 0;
+  height: 30px;
+  background-color: steelblue;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.clear {
+  background-color: lightblue;
+}
+
+.partly-cloudy {
+  background-color: lightyellow;
+}
+
+.cloudy {
+  background-color: lightgray;
+}
